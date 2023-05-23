@@ -6,3 +6,4 @@ if [ "$#" -ne 2 ]; then
 fi
 mkdir -p $(dirname $1)
 echo "$2" > "$1"
+
